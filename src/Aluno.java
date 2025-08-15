@@ -17,4 +17,9 @@ public class Aluno {
         System.out.println("Nome do aluno: " + nome);
         System.out.println("Nota do aluno: " + nota);
     }
+
+    public Aluno(String nome, double nota){
+        this.nome = nome;
+        this.nota = nota;
+    }
 }

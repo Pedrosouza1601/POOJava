@@ -9,6 +9,12 @@ public class Musica {
         System.out.println("Duracao em Segundos: " + duracaoEmSegundos);
     }
 
+    public Musica(String titulo, String artista, int duracaoEmSegundos) {
+        this.titulo = titulo;
+        this.artista = artista;
+        this.duracaoEmSegundos = duracaoEmSegundos;
+    }
+
 
     }
 
